@@ -48,14 +48,22 @@ a:hover {
     font-weight: normal !important;
 }
 
+@media (max-width: 480px) {
+    #forkme {
+        display: none;
+    }
+}
+
 #navbar {
     padding: 30px 0 40px 0;
-    background: url('../images/saguenay.jpg') center bottom no-repeat #2980B9;
+    background: url('../images/saguenay-small.jpg') center bottom no-repeat #2980B9;
+    #background: url('../images/saguenay.jpg') center bottom no-repeat #2980B9;
     color: #FFF;
 }
 @media (min-width: 768px) {
     #navbar {
         padding: 120px 0 140px 0;
+        background-image: url('../images/saguenay.jpg');
     }
 }
 
