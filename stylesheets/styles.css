@@ -244,6 +244,7 @@ a:hover {
 
             #infos img {
                 width: auto;
+                max-width: 90%;
                 height: 90%;
             }
   
