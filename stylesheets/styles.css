@@ -80,7 +80,7 @@ a:hover {
     #navbar p {
         text-shadow: 1px 1px 0 #222;
     }
-  
+
     #navbar .btn {
         display: block;
         margin-top: 20px;
@@ -107,7 +107,7 @@ a:hover {
         margin: 80px auto 40px auto;
     }
 }
-    
+
     #cie > .row {
         margin-bottom: 40px;
     }
@@ -156,7 +156,7 @@ a:hover {
             font-weight: bold;
         }
         @media (min-width: 768px) {
-            #cie .col-md-4 .text.wibeset { 
+            #cie .col-md-4 .text.wibeset {
                 font-size: 600%;
             }
         }
@@ -173,7 +173,7 @@ a:hover {
             #cie img {
                 max-width: 70%;
             }
-    
+
 #avantages {
     padding: 40px 0;
     background-color: #040100;
@@ -189,7 +189,7 @@ a:hover {
         text-transform: uppercase;
         border-top: 5px solid #FFF;
     }
-    
+
     #avantages ul {
         padding-top: 36px;
     }
@@ -204,7 +204,7 @@ a:hover {
             font-size: 200%;
         }
     }
-    
+
 #infos {
     padding: 20px 0 40px 0;
 }
@@ -230,7 +230,7 @@ a:hover {
             margin-top: 40px;
         }
     }
-    
+
         #infos .col-md-8 .col-md-3 a {
             display: block;
             width: 100%;
@@ -239,7 +239,9 @@ a:hover {
             vertical-align: middle;
             text-align: center;
             border: 10px solid #EEE;
+            text-decoration: none;
         }
+
         #infos .col-md-8 .col-md-3 a:hover {
             border-color: #CCC;
         }
@@ -249,7 +251,11 @@ a:hover {
                 max-width: 90%;
                 height: 90%;
             }
-  
+
+        #infos .col-md-8 .col-md-3 a#io {
+            font-size: 90px;
+        }
+
 #suggest {
     padding: 80px 0;
 }
@@ -269,7 +275,7 @@ a:hover {
     #suggest .btn:hover {
         background-color: #1F8E4D;
     }
-  
+
     #suggest p {
         font-size: 120%;
         color: #666;
